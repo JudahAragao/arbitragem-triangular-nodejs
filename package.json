@@ -1,0 +1,16 @@
+{
+  "name": "arbitragem-triangular",
+  "version": "1.0.0",
+  "description": "sistema para arbitragem de criptomoedas",
+  "main": "index.js",
+  "author": "judaharagao",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.1",
+    "ws": "^8.8.1"
+  },
+  "scripts": {
+    "start": "node -r dotenv/config index"
+  }
+}
